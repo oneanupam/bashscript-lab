@@ -5,6 +5,7 @@
 
 # -f	file exists and is a regular file
 # -d	file exists and is a directory
+# -e	file exists (any type)
 
 #!/bin/bash
 
