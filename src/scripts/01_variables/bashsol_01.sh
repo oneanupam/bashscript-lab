@@ -6,6 +6,8 @@
 
 # A variable stores data that can be used later in the script. No space on either side of =
 # Use snake_case for regular variable names and UPPERCASE for env variables.
+# Use ${var} in scripts, especially when You're combining variable with other characters. You can also use $var directly.
 
-display_message="Hello world!"
-echo "The message: ${display_message}"
+display_message="Hello"
+echo "Message-01: $display_message"
+echo "Message-02: ${display_message}_world!"
