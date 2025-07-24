@@ -1,8 +1,9 @@
-# This script is used to demonstrate the input and output thru the user.
+# Demonstration of modification of read command.
+# IFS(Internal field seperator) variable is used as seperator while entering the input thru read command.
 
-printf "Enter your name:"
-read name
+#!/bin/bash
 
-echo "Hello $name, How are you?"
-
-
+echo "Enter three names:"
+IFS="*"
+read name1 name2 name3
+echo "You have entered $name1, $name2 and $name3"
