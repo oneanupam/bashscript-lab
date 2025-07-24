@@ -1,0 +1,13 @@
+# Temporary files
+*.tmp
+*.bak
+
+# Log files
+*.log
+logs/
+
+# Generated output
+output/
+
+# OS-specific files
+.DS_Store
